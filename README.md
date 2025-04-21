@@ -23,12 +23,13 @@
 ```bash
 - `git clone https://github.com/Krishit-Shah/authly.git`
 - `cd authly`
-
+```
 ### 2.⚙️ Backend Setup
+```bash
 `cd backend`
 `npm install`
-
-### 📁 Create a .env file inside backend/:
+```
+📁 Create a .env file inside backend/:
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/authly
 JWT_SECRET=supersecretkey
