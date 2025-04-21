@@ -100,11 +100,16 @@ Krishit Shah
 ## 📝 Contributing
 - Contributions are welcome. Please submit a pull request with your changes.
 
-## 📚 Documentation
-- Documentation is available in the `docs` folder.
-
 ## 🚨 Issues
 - Please report any issues or bugs in the `issues` section.
-
 ## 📈 Future Development
-- Future development plans include adding more features and improving the overall user experience.
+
+- 🔐 Google OAuth Login using `react-oauth/google`  
+- 🌗 Light/Dark Mode toggle with persistent theme storage  
+- 🧩 Admin-only dashboard with role-based access control  
+- 📱 Fully mobile-optimized layout using Bootstrap grid  
+- 💬 Custom error handling with user-friendly messages  
+- 🔁 Resend OTP with cooldown + expiration UI  
+- 🧾 In-app activity logs (user actions & login history)  
+- 🌍 Deployment to Render (backend) + Vercel (frontend) with custom domain  
+- 🧠 Migration from in-memory store to Redis for OTP in production
