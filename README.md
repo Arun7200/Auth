@@ -20,15 +20,14 @@
 
 ### 1. 📦 Clone the Repository 
 
-```bash
-git clone https://github.com/Krishit-Shah/authly.git
-cd authly
+git `clone https://github.com/Krishit-Shah/authly.git`
+cd `authly`
 
 ### 2.⚙️ Backend Setup
-cd backend
-npm install
+cd `backend`
+npm `install`
 
-📁 Create a .env file inside backend/:
+### 📁 Create a .env file inside backend/:
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/authly
 JWT_SECRET=supersecretkey
@@ -36,30 +35,30 @@ EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_app_password
 CLIENT_URL=http://localhost:3000
 
-🔐 Note: Use a Gmail App Password if you have 2FA enabled.
+### 🔐 Note: Use a Gmail App Password if you have 2FA enabled.
 
 
-Start the backend server:
-npm start
+### Start the backend server:
+npm `start`
 🌐 Server runs at: http://localhost:5000
 
 ### 3.💻 Frontend Setup
-cd ../frontend
-npm install
-npm start
+cd `../frontend`
+npm `install`
+npm `start`
 🌐 Frontend runs at: http://localhost:3000
 ## 🛠️ Tech Stack
 
-| 🔧 Frontend   | ⚙️ Backend | 🔐 Security | 🧰 Tools     |
+| 🔧 Frontend   | ⚙️ Backend | 🔐 Security | 🧰 Tools |
 |--------------|------------|-------------|-------------|
 | React        | Node.js    | JWT         | Toastify    |
 | Bootstrap 5  | Express    | Bcrypt.js   | Nodemailer  |
 | React Router | MongoDB    | OTP Emails  | Dotenv      |
 
-👨‍💻 Author
+## 👨‍💻 Author
 Krishit Shah
 A complete MERN stack authentication solution built with a focus on security, scalability, and clean architecture.
 
 
-📄 License
+## 📄 License
 This project is free to use for learning and educational purposes. 
