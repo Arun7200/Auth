@@ -55,6 +55,24 @@ npm install
 npm start
 ```
 🌐 Frontend runs at: http://localhost:3000
+---
+## 📦 Installed Dependencies
+
+### 🔧 Backend
+
+- express
+- mongoose
+- dotenv
+- bcryptjs
+- jsonwebtoken
+- nodemailer
+- cors
+
+```bash
+npm install express mongoose dotenv bcryptjs jsonwebtoken nodemailer cors
+```
+---
+
 ## 🛠️ Tech Stack
 
 | 🔧 Frontend   | ⚙️ Backend | 🔐 Security | 🧰 Tools |
