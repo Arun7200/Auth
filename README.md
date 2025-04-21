@@ -43,7 +43,9 @@ CLIENT_URL=http://localhost:3000
 
 
 ### Start the backend server:
-```bash npm start ```
+```bash 
+npm start
+ ```
 🌐 Server runs at: http://localhost:5000
 
 ### 3.💻 Frontend Setup
