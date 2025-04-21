@@ -56,7 +56,7 @@ npm start
 ```
 🌐 Frontend runs at: http://localhost:3000
 
-## 📦 Installed Dependencies
+## 4.📦 Installed Dependencies
 
 ### 🔧 Backend
 
@@ -70,6 +70,17 @@ npm start
 
 ```bash
 npm install express mongoose dotenv bcryptjs jsonwebtoken nodemailer cors
+```
+
+### 💻 Frontend
+- react
+- react-dom
+- react-router-dom
+- axios
+- react-toastify
+- bootstrap
+```bash
+npm install axios react-router-dom react-toastify bootstrap
 ```
 ---
 
