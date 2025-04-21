@@ -14,7 +14,6 @@
 - 🧠 Temporary in-memory store for OTP
 - 🗂️ Fully structured: `frontend/` + `backend/`
 
-
 ---
 ## 🧪 How to Run the Project Locally
 
@@ -29,7 +28,7 @@ cd authly
 cd backend
 npm install
 ```
-📁 Create a .env file inside backend/:
+📁 Create a `.env` file inside `backend/` with the following environment variables:
 ```bash
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/authly
@@ -41,11 +40,10 @@ CLIENT_URL=http://localhost:3000
 
 🔐 Note: Use a Gmail App Password if you have 2FA enabled.
 
-
 ### Start the backend server:
 ```bash 
 npm start
- ```
+```
 🌐 Server runs at: http://localhost:5000
 
 ### 3.💻 Frontend Setup
@@ -96,6 +94,17 @@ npm install react react-dom react-router-dom axios react-toastify bootstrap
 Krishit Shah
 - A complete MERN stack authentication solution built with a focus on security, scalability, and clean architecture.
 
-
 ## 📄 License
-- This project is free to use for learning and educational purposes. 
+- This project is free to use for learning and educational purposes.
+
+## 📝 Contributing
+- Contributions are welcome. Please submit a pull request with your changes.
+
+## 📚 Documentation
+- Documentation is available in the `docs` folder.
+
+## 🚨 Issues
+- Please report any issues or bugs in the `issues` section.
+
+## 📈 Future Development
+- Future development plans include adding more features and improving the overall user experience.
