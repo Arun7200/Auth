@@ -21,27 +21,29 @@
 ### 1. 📦 Clone the Repository 
 
 ```bash
-`git clone https://github.com/Krishit-Shah/authly.git`
-`cd authly`
+git clone https://github.com/Krishit-Shah/authly.git
+cd authly
 ```
 ### 2.⚙️ Backend Setup
 ```bash
-`cd backend`
-`npm install`
+cd backend
+npm install
 ```
 📁 Create a .env file inside backend/:
+```bash
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/authly
 JWT_SECRET=supersecretkey
 EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_app_password
 CLIENT_URL=http://localhost:3000
+```
 
-### 🔐 Note: Use a Gmail App Password if you have 2FA enabled.
+🔐 Note: Use a Gmail App Password if you have 2FA enabled.
 
 
 ### Start the backend server:
-npm `start`
+```bash npm start ```
 🌐 Server runs at: http://localhost:5000
 
 ### 3.💻 Frontend Setup
