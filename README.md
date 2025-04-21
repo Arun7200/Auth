@@ -64,9 +64,9 @@ npm start
 | React Router | MongoDB    | OTP Emails  | Dotenv      |
 
 ## 👨‍💻 Author
-- Krishit Shah
+Krishit Shah
 - A complete MERN stack authentication solution built with a focus on security, scalability, and clean architecture.
 
 
 ## 📄 License
-This project is free to use for learning and educational purposes. 
+- This project is free to use for learning and educational purposes. 
