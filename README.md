@@ -20,12 +20,12 @@
 
 ### 1. 📦 Clone the Repository 
 
-git `clone https://github.com/Krishit-Shah/authly.git`
+`git clone https://github.com/Krishit-Shah/authly.git`
 cd `authly`
 
 ### 2.⚙️ Backend Setup
-cd `backend`
-npm `install`
+`cd backend`
+`npm install`
 
 ### 📁 Create a .env file inside backend/:
 PORT=5000
