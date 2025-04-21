@@ -49,9 +49,11 @@ npm start
 🌐 Server runs at: http://localhost:5000
 
 ### 3.💻 Frontend Setup
-cd `../frontend`
-npm `install`
-npm `start`
+```bash
+cd ../frontend
+npm install
+npm start
+```
 🌐 Frontend runs at: http://localhost:3000
 ## 🛠️ Tech Stack
 
