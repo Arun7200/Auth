@@ -20,6 +20,7 @@
 
 ### 1. 📦 Clone the Repository 
 
+```bash
 - `git clone https://github.com/Krishit-Shah/authly.git`
 - `cd authly`
 
