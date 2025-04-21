@@ -80,7 +80,7 @@ npm install express mongoose dotenv bcryptjs jsonwebtoken nodemailer cors
 - react-toastify
 - bootstrap
 ```bash
-npm install axios react-router-dom react-toastify bootstrap
+npm install react react-dom react-router-dom axios react-toastify bootstrap
 ```
 ---
 
