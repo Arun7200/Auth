@@ -16,7 +16,7 @@
 ### 1.Clone the Repository 
 
 ```bash
-git clone https://github.com/Krishit-Shah/authly.git
+git clone https://github.com/Arun7200/Auth.git
 cd authly
 ```
 ### 2.Backend Setup
@@ -63,4 +63,5 @@ Fontend runs at: http://localhost:3000
 - react-router-dom
 - axios
 - react-toastify
+
 - bootstrap
