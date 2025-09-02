@@ -1,5 +1,6 @@
 # Authentication – Secure Auth System (MERN)
-
+# Frontend URL -- https://auth-i37q.vercel.app/
+# Backend URL -- https://auth-h7ux.vercel.app/
 > A full-stack authentication system with Email OTP verification, password reset, JWT protection, and clean UI using Bootstrap.
 
 ## Features
@@ -65,3 +66,4 @@ Fontend runs at: http://localhost:3000
 - react-toastify
 
 - bootstrap
+
