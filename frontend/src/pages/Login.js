@@ -21,6 +21,11 @@ export default function Login() {
     }
   };
 
+  // Google login handler
+  const handleGoogleLogin = () => {
+    window.location.href = 'http://localhost:5000/api/google/login'; // Backend should handle Google OAuth
+  };
+
   return (
     <div className="container mt-5">
       <div className="row justify-content-center">
@@ -33,21 +38,25 @@ export default function Login() {
                   <label className="form-label">Email address</label>
                   <input type="email" name="email" className="form-control" onChange={handleChange} required />
                 </div>
-
                 <div className="mb-4">
                   <label className="form-label">Password</label>
                   <input type="password" name="password" className="form-control" onChange={handleChange} required />
                 </div>
-
                 <button type="submit" className="btn btn-primary w-100">Login</button>
               </form>
+              <button
+                className="btn btn-outline-danger w-100 mt-3"
+                onClick={handleGoogleLogin}
+                type="button"
+              >
+                Login with Google
+              </button>
               <p className="text-center mt-3 mb-0">
                 Don't have an account? <a href="/signup">Sign up here</a>
               </p>
               <p className="text-center mt-3">
-  <a href="/forgot-password">Forgot password?</a>
-</p>
-
+                <a href="/forgot-password">Forgot password?</a>
+              </p>
             </div>
           </div>
         </div>
