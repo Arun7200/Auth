@@ -17,7 +17,7 @@ export default function VerifyOtp() {
     }
 
     try {
-      await axios.post('http://localhost:5000/api/otp/verify-otp', {
+      await axios.post(`${process.env.REACT_APP_SERVER_URL}/api/otp/verify-otp`, {
         email: data.email,
         otp,
       });

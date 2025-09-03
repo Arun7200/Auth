@@ -32,7 +32,7 @@ export default function Signup() {
     }
     setLoading(true);
     try {
-      await axios.post('http://localhost:5000/api/otp/send-otp', formData);
+      await axios.post(`${process.env.REACT_APP_SERVER_URL}/api/otp/send-otp`, formData);
       toast.success('OTP sent to your email');
       sessionStorage.setItem("pendingSignup", JSON.stringify(formData));
       navigate('/verify-otp');
@@ -48,7 +48,7 @@ export default function Signup() {
 
   // Google signup handler
   const handleGoogleSignup = async () => {
-    window.location.href = 'http://localhost:5000/api/google/signup'; // Backend should handle Google OAuth
+    window.location.href = `${process.env.REACT_APP_SERVER_URL}/api/google/signup`; // Backend should handle Google OAuth
   };
 
   return (
@@ -117,4 +117,4 @@ export default function Signup() {
       </div>
     </div>
   );
-} // <-- This closing brace was missing!
+}

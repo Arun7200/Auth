@@ -11,7 +11,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/login', formData);
+      const res = await axios.post(`${process.env.REACT_APP_SERVER_URL}/api/auth/login`, formData);
       localStorage.setItem("token", res.data.token);
       localStorage.setItem("user", JSON.stringify(res.data.user));
       toast.success('Login successful!');
@@ -23,7 +23,7 @@ export default function Login() {
 
   // Google login handler
   const handleGoogleLogin = () => {
-    window.location.href = 'http://localhost:5000/api/google/login'; // Backend should handle Google OAuth
+    window.location.href = `${process.env.REACT_APP_SERVER_URL}/api/google/login`; // Backend should handle Google OAuth
   };
 
   return (

@@ -16,7 +16,7 @@ export default function ResetPassword() {
     }
 
     try {
-      await axios.post(`http://localhost:5000/api/password/reset-password/${token}`, { password });
+      await axios.post(`${process.env.REACT_APP_SERVER_URL}/api/password/reset-password/${token}`, { password });
       toast.success("Password has been reset! Please login.");
       window.location.href = "/login";
     } catch (err) {
