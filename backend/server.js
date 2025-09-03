@@ -18,7 +18,8 @@ app.get('/', (req, res) => {
 passport.use(new GoogleStrategy({
   clientID: process.env.GOOGLE_CLIENT_ID,
   clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-callbackURL: process.env.CLIENT_URL + "/api/google/callback"},
+  callbackURL: process.env.CLIENT_URL + "/api/google/callback"
+},
 function(accessToken, refreshToken, profile, done) {
   // Find or create user in your DB
   return done(null, profile);
@@ -38,4 +39,5 @@ app.use("/api/otp", require("./routes/otpRoutes"));
 app.use("/api/google", require("./routes/googleAuthRoutes"));
 
 const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
