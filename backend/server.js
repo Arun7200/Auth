@@ -25,6 +25,9 @@ function(accessToken, refreshToken, profile, done) {
   return done(null, profile);
 }
 ));
+// console.log('GOOGLE_CLIENT_ID:', process.env.GOOGLE_CLIENT_ID);
+// console.log('GOOGLE_CLIENT_SECRET:', process.env.GOOGLE_CLIENT_SECRET);
+// filepath: c:\Users\arunk\OneDrive\Desktop\authly\backend\server.js
 
 // Initialize passport
 app.use(passport.initialize());
@@ -40,4 +43,4 @@ app.use("/api/google", require("./routes/googleAuthRoutes"));
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+// app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
